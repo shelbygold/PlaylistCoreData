@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		DD901AAB22396F0900F0DEE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD901AAA22396F0900F0DEE4 /* AppDelegate.swift */; };
-		DD901AAD22396F0900F0DEE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD901AAC22396F0900F0DEE4 /* ViewController.swift */; };
 		DD901AB022396F0900F0DEE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD901AAE22396F0900F0DEE4 /* Main.storyboard */; };
 		DD901AB222396F0D00F0DEE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD901AB122396F0D00F0DEE4 /* Assets.xcassets */; };
 		DD901AB522396F0D00F0DEE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD901AB322396F0D00F0DEE4 /* LaunchScreen.storyboard */; };
+		DD901AC4223970E400F0DEE4 /* PlaylistCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD901AC2223970E400F0DEE4 /* PlaylistCoreData.xcdatamodeld */; };
+		DD901AC6223972FD00F0DEE4 /* CoreDataStackContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD901AC5223972FC00F0DEE4 /* CoreDataStackContainer.swift */; };
+		DD901AC82239781500F0DEE4 /* SongConvience.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD901AC72239781500F0DEE4 /* SongConvience.swift */; };
+		DD901ACA22397A7A00F0DEE4 /* playlistConvience.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD901AC922397A7A00F0DEE4 /* playlistConvience.swift */; };
+		DD901ACC22397D3E00F0DEE4 /* SongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD901ACB22397D3E00F0DEE4 /* SongController.swift */; };
+		DD901ACE22397DDB00F0DEE4 /* PlaylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD901ACD22397DDB00F0DEE4 /* PlaylistController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD901AA722396F0900F0DEE4 /* PlaylistCoreDataa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistCoreDataa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD901AAA22396F0900F0DEE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD901AAC22396F0900F0DEE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD901AAF22396F0900F0DEE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD901AB122396F0D00F0DEE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD901AB422396F0D00F0DEE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD901AB622396F0D00F0DEE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD901AC3223970E400F0DEE4 /* PlaylistCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlaylistCoreData.xcdatamodel; sourceTree = "<group>"; };
+		DD901AC5223972FC00F0DEE4 /* CoreDataStackContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStackContainer.swift; sourceTree = "<group>"; };
+		DD901AC72239781500F0DEE4 /* SongConvience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongConvience.swift; sourceTree = "<group>"; };
+		DD901AC922397A7A00F0DEE4 /* playlistConvience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playlistConvience.swift; sourceTree = "<group>"; };
+		DD901ACB22397D3E00F0DEE4 /* SongController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongController.swift; sourceTree = "<group>"; };
+		DD901ACD22397DDB00F0DEE4 /* PlaylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,59 @@
 		DD901AA922396F0900F0DEE4 /* PlaylistCoreDataa */ = {
 			isa = PBXGroup;
 			children = (
-				DD901AAA22396F0900F0DEE4 /* AppDelegate.swift */,
-				DD901AAC22396F0900F0DEE4 /* ViewController.swift */,
+				DD901AC12239708A00F0DEE4 /* Other Stuff */,
+				DD901AC02239707A00F0DEE4 /* Storyboard */,
+				DD901ABF2239706800F0DEE4 /* Controller */,
+				DD901ABE2239705D00F0DEE4 /* ModelController */,
+				DD901ABC2239704F00F0DEE4 /* Model */,
+			);
+			path = PlaylistCoreDataa;
+			sourceTree = "<group>";
+		};
+		DD901ABC2239704F00F0DEE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD901AC72239781500F0DEE4 /* SongConvience.swift */,
+				DD901AC922397A7A00F0DEE4 /* playlistConvience.swift */,
+				DD901AC2223970E400F0DEE4 /* PlaylistCoreData.xcdatamodeld */,
+				DD901AC5223972FC00F0DEE4 /* CoreDataStackContainer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD901ABE2239705D00F0DEE4 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				DD901ACB22397D3E00F0DEE4 /* SongController.swift */,
+				DD901ACD22397DDB00F0DEE4 /* PlaylistController.swift */,
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
+		DD901ABF2239706800F0DEE4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DD901AC02239707A00F0DEE4 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
 				DD901AAE22396F0900F0DEE4 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		DD901AC12239708A00F0DEE4 /* Other Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				DD901AAA22396F0900F0DEE4 /* AppDelegate.swift */,
 				DD901AB122396F0D00F0DEE4 /* Assets.xcassets */,
 				DD901AB322396F0D00F0DEE4 /* LaunchScreen.storyboard */,
 				DD901AB622396F0D00F0DEE4 /* Info.plist */,
 			);
-			path = PlaylistCoreDataa;
+			path = "Other Stuff";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD901AAD22396F0900F0DEE4 /* ViewController.swift in Sources */,
+				DD901ACC22397D3E00F0DEE4 /* SongController.swift in Sources */,
+				DD901AC4223970E400F0DEE4 /* PlaylistCoreData.xcdatamodeld in Sources */,
+				DD901ACA22397A7A00F0DEE4 /* playlistConvience.swift in Sources */,
 				DD901AAB22396F0900F0DEE4 /* AppDelegate.swift in Sources */,
+				DD901AC6223972FD00F0DEE4 /* CoreDataStackContainer.swift in Sources */,
+				DD901AC82239781500F0DEE4 /* SongConvience.swift in Sources */,
+				DD901ACE22397DDB00F0DEE4 /* PlaylistController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UWK99QK89X;
-				INFOPLIST_FILE = PlaylistCoreDataa/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PlaylistCoreDataa/Other Stuff/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +362,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UWK99QK89X;
-				INFOPLIST_FILE = PlaylistCoreDataa/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PlaylistCoreDataa/Other Stuff/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,6 +396,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD901AC2223970E400F0DEE4 /* PlaylistCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD901AC3223970E400F0DEE4 /* PlaylistCoreData.xcdatamodel */,
+			);
+			currentVersion = DD901AC3223970E400F0DEE4 /* PlaylistCoreData.xcdatamodel */;
+			path = PlaylistCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DD901A9F22396F0900F0DEE4 /* Project object */;
 }
