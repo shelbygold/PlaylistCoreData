@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD7B268122399A7100C9BCF0 /* PlaylistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B268022399A7100C9BCF0 /* PlaylistTableViewController.swift */; };
+		DD7B268322399A8800C9BCF0 /* SongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7B268222399A8800C9BCF0 /* SongTableViewController.swift */; };
 		DD901AAB22396F0900F0DEE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD901AAA22396F0900F0DEE4 /* AppDelegate.swift */; };
 		DD901AB022396F0900F0DEE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD901AAE22396F0900F0DEE4 /* Main.storyboard */; };
 		DD901AB222396F0D00F0DEE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD901AB122396F0D00F0DEE4 /* Assets.xcassets */; };
 		DD901AB522396F0D00F0DEE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD901AB322396F0D00F0DEE4 /* LaunchScreen.storyboard */; };
-		DD901AC4223970E400F0DEE4 /* PlaylistCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD901AC2223970E400F0DEE4 /* PlaylistCoreData.xcdatamodeld */; };
+		DD901AC4223970E400F0DEE4 /* PlaylistCoreDataa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD901AC2223970E400F0DEE4 /* PlaylistCoreDataa.xcdatamodeld */; };
 		DD901AC6223972FD00F0DEE4 /* CoreDataStackContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD901AC5223972FC00F0DEE4 /* CoreDataStackContainer.swift */; };
 		DD901AC82239781500F0DEE4 /* SongConvience.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD901AC72239781500F0DEE4 /* SongConvience.swift */; };
-		DD901ACA22397A7A00F0DEE4 /* playlistConvience.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD901AC922397A7A00F0DEE4 /* playlistConvience.swift */; };
+		DD901ACA22397A7A00F0DEE4 /* Playlist+Convience.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD901AC922397A7A00F0DEE4 /* Playlist+Convience.swift */; };
 		DD901ACC22397D3E00F0DEE4 /* SongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD901ACB22397D3E00F0DEE4 /* SongController.swift */; };
 		DD901ACE22397DDB00F0DEE4 /* PlaylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD901ACD22397DDB00F0DEE4 /* PlaylistController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD7B268022399A7100C9BCF0 /* PlaylistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewController.swift; sourceTree = "<group>"; };
+		DD7B268222399A8800C9BCF0 /* SongTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewController.swift; sourceTree = "<group>"; };
 		DD901AA722396F0900F0DEE4 /* PlaylistCoreDataa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistCoreDataa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD901AAA22396F0900F0DEE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD901AAF22396F0900F0DEE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,7 +33,7 @@
 		DD901AC3223970E400F0DEE4 /* PlaylistCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlaylistCoreData.xcdatamodel; sourceTree = "<group>"; };
 		DD901AC5223972FC00F0DEE4 /* CoreDataStackContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStackContainer.swift; sourceTree = "<group>"; };
 		DD901AC72239781500F0DEE4 /* SongConvience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongConvience.swift; sourceTree = "<group>"; };
-		DD901AC922397A7A00F0DEE4 /* playlistConvience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playlistConvience.swift; sourceTree = "<group>"; };
+		DD901AC922397A7A00F0DEE4 /* Playlist+Convience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Playlist+Convience.swift"; sourceTree = "<group>"; };
 		DD901ACB22397D3E00F0DEE4 /* SongController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongController.swift; sourceTree = "<group>"; };
 		DD901ACD22397DDB00F0DEE4 /* PlaylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,8 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				DD901AC72239781500F0DEE4 /* SongConvience.swift */,
-				DD901AC922397A7A00F0DEE4 /* playlistConvience.swift */,
-				DD901AC2223970E400F0DEE4 /* PlaylistCoreData.xcdatamodeld */,
+				DD901AC922397A7A00F0DEE4 /* Playlist+Convience.swift */,
+				DD901AC2223970E400F0DEE4 /* PlaylistCoreDataa.xcdatamodeld */,
 				DD901AC5223972FC00F0DEE4 /* CoreDataStackContainer.swift */,
 			);
 			path = Model;
@@ -96,6 +100,8 @@
 		DD901ABF2239706800F0DEE4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DD7B268022399A7100C9BCF0 /* PlaylistTableViewController.swift */,
+				DD7B268222399A8800C9BCF0 /* SongTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -191,12 +197,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD901ACC22397D3E00F0DEE4 /* SongController.swift in Sources */,
-				DD901AC4223970E400F0DEE4 /* PlaylistCoreData.xcdatamodeld in Sources */,
-				DD901ACA22397A7A00F0DEE4 /* playlistConvience.swift in Sources */,
+				DD7B268322399A8800C9BCF0 /* SongTableViewController.swift in Sources */,
+				DD901AC4223970E400F0DEE4 /* PlaylistCoreDataa.xcdatamodeld in Sources */,
+				DD901ACA22397A7A00F0DEE4 /* Playlist+Convience.swift in Sources */,
 				DD901AAB22396F0900F0DEE4 /* AppDelegate.swift in Sources */,
 				DD901AC6223972FD00F0DEE4 /* CoreDataStackContainer.swift in Sources */,
 				DD901AC82239781500F0DEE4 /* SongConvience.swift in Sources */,
 				DD901ACE22397DDB00F0DEE4 /* PlaylistController.swift in Sources */,
+				DD7B268122399A7100C9BCF0 /* PlaylistTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,13 +406,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		DD901AC2223970E400F0DEE4 /* PlaylistCoreData.xcdatamodeld */ = {
+		DD901AC2223970E400F0DEE4 /* PlaylistCoreDataa.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				DD901AC3223970E400F0DEE4 /* PlaylistCoreData.xcdatamodel */,
 			);
 			currentVersion = DD901AC3223970E400F0DEE4 /* PlaylistCoreData.xcdatamodel */;
-			path = PlaylistCoreData.xcdatamodeld;
+			path = PlaylistCoreDataa.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

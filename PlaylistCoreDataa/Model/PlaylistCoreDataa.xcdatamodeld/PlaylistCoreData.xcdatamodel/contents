@@ -10,7 +10,7 @@
         <relationship name="playlist" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Playlist" inverseName="songs" inverseEntity="Playlist" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Song" positionX="-36" positionY="9" width="128" height="90"/>
         <element name="Playlist" positionX="0" positionY="72" width="128" height="75"/>
+        <element name="Song" positionX="-36" positionY="9" width="128" height="90"/>
     </elements>
 </model>
